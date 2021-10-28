@@ -1,5 +1,7 @@
 #main{
 	background-color:whitesmoke;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 body{
 	background-color:whitesmoke;
@@ -11,7 +13,6 @@ a:hover {
 #figurinha{
 	border-color: black;
 	margin-top: 1%;
-	margin-left: 15%;
 }
 
 th{
@@ -35,7 +36,7 @@ th{
 #marca{
 	padding: 3px;
 	background-color: pink;
-	
+	width: auto;
 }
 .marca1{
 	float: right;
@@ -44,24 +45,10 @@ th{
 	font-family: sans-serif;
 }
 
-aside{
-	background-color: #efefef;
-	float: left;
-	padding: 1%;
-	width: 7%;
-	margin-top: 1%;
-	margin-bottom: 30%;
-	margin-right: 5%;
-}
 #sec{
-	
 	width: 40%;
 }
 footer{
 	background-color: burlywood;
 	margin-top: 20%;
-	
-}
-#dir{
-	float: right;
 }
