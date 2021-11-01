@@ -1,11 +1,9 @@
 #main {
 	background-color: whitesmoke;
-	background-image:url("imagens/beach/beach.jpg");
-	background-size: cover;
-	
 }
 body{
 	margin:auto;
+	background-color: whitesmoke;
 }
 li,a:hover {
 background-color:white;
@@ -45,14 +43,19 @@ a{
 
 #principal{
 	background-color: burlywood;
-	margin-top: 5%;
+	margin-top: 15%;
 	padding: 2%;
+	
 }
 th.t1 , th.t2,th.t3{
 	border-style: none;
 	border-width: 1px;
-	width: 20%;
+	width: 25%;
 	padding: 5px;
+	margin-left: 10%;
+}
+td.td1, td.td2{
+	width: 15%;
 }
 div.galeria {
 	margin: 5px;
@@ -87,5 +90,10 @@ div.desc {
 	margin-top: 1%;
 }
 .w3-section{
-	margin-top: 2%;
+	margin-top: 5%;
+	margin-bottom: 1%;
+}
+.w3-button:hover {
+	background-color: whitesmoke;
+	color: burlywood;
 }
