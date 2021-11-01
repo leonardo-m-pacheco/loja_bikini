@@ -7,47 +7,52 @@
 body{
 	margin:auto;
 }
-/*
-li a:hover {
-background-color:green;
+li,a:hover {
+background-color:white;
+color: burlywood;
 }
-*/
+
 
 #figurinha {
 	background-color: white;
 	border-color: black;
-	margin-left: 20%;
-	margin-right: 22%;
+	margin-left: 21%;
+	margin-right: 21%;
 	margin-top: 1%;
 }
 
-th {
-	border-style: dashed;
+th{
+	border: 1px;
+	border-style: groove;
 	margin:2%;
 	padding: 20px;
 }
 #logo {
 	margin-left: 35%;
 }
-
+a{
+	color: black;
+	font-size: medium;
+}
 #marca {
+	text-align: center;
 	padding: 3px;
 	background-color: pink;
 	width: auto;
-}
-
-.marca1 {
-	float: right;
-	float: inline-end;
-	font-size: 15px;
+	color: azure;
 	font-family: sans-serif;
 }
 
-#esq {
+#principal{
 	background-color: burlywood;
 	margin-top: 5%;
 	padding: 2%;
-
+}
+th.t1 , th.t2,th.t3{
+	border-style: none;
+	border-width: 1px;
+	width: 20%;
+	padding: 5px;
 }
 div.galeria {
 	margin: 5px;
