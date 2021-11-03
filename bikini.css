@@ -15,7 +15,9 @@ background-color:white;
 color: burlywood;
 }
 
-
+p{
+	font-size: 20px;
+}
 #figurinha {
 	background-color: white;
 	border-color: black;
@@ -38,11 +40,13 @@ a{
 }
 #marca {
 	text-align: center;
-	padding: 3px;
+	margin-top: 1%;
+	padding: 15px;
 	background-color:pink;
-	width: auto;
+	width: 100%;
 	color: azure;
 	font-family: sans-serif;
+	font-size:10px;
 }
 
 #principal{
