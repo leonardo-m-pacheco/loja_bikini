@@ -28,11 +28,14 @@ th{
 	padding: 20px;
 }
 #logo {
-	background-color: black;
 	background-image:url(imagens/beach/beach.jpg);
+	/*background-color: green;*/
+	background-size: 50%;
+
 }
 .fotologo{
 	display: block;
+	padding: 50px;
 	text-align: center;
 }
 a{
