@@ -1,6 +1,6 @@
 html{
-	width:900px;
-	height: 1000px;
+	width:auto;
+	height: auto;
 }
 #main {
 	background-color: whitesmoke;
@@ -19,7 +19,7 @@ color: burlywood;
 #figurinha {
 	background-color: white;
 	border-color: black;
-width: auto;
+	width: auto;
 	margin-top: 1%;
 }
 
