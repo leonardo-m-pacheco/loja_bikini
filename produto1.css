@@ -41,16 +41,24 @@ a{
 }
 #especificacao{
     float: right;
-    background-color: red;
-    width: 150px;
-    margin-top: 5%;
+    width: 200px;
+    margin-top: 8%;
+    margin-bottom: 40%;
+    margin-right: 20px;
 }
-.um{
-    margin-bottom: 100px
+.a1{
+    margin-bottom: 50px;
+    background-color: red;
+    width:auto;
+}
+.a2{
+    margin-bottom: 100px;
+    background-color: blue;
+    width: auto;
 }
 #main {
     background-color:white;
-	width:40%;
+	width:60%;
     margin-top: 2%;
     margin-left: 10px;
 	margin-bottom:20%;
@@ -71,7 +79,7 @@ th.t1 , th.t2,th.t3{
 th.t4{
 	border-style: none;
 	border-width: 1px;
-    padding: 20px;
+    padding: 40px;
 }
 
 td.td1, td.td2{
@@ -103,7 +111,6 @@ div.desc {
 }
 .w3-content{
 	margin-top: 2%;
-	max-width:300px;
 }
 .w3-center{
 	margin-top: 1%;
