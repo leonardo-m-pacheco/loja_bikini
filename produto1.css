@@ -1,0 +1,133 @@
+html{
+    width: auto;
+    height:auto;
+}
+body{
+	width:auto;
+	background-color: yellow
+}
+li,a:hover {
+background-color:white;
+color: burlywood;
+}
+th{
+	border: 1px;
+	border-style: groove;
+	margin:2%;
+	padding: 5px;
+}
+#logo {
+	background-image:url(imagens/beach/beach.jpg);
+	/*background-color: green;*/
+	background-size:50%;
+}
+.fotologo{
+	display: block;
+	padding: 50px;
+	text-align: center;
+}
+a{
+	color: black;
+	font-size: x-large;
+}
+#marca {
+	text-align: center;
+	margin-top: 1%;
+	padding: 15px;
+	background-color:pink;
+	width:auto;
+	color: azure;
+	font-family: sans-serif;
+}
+
+#main {
+	background-color: whitesmoke;
+	width:auto;
+    margin-top: 2%;
+    margin-left: 10px;
+	margin-bottom:20%;
+    background-color: red;
+	
+}
+
+#principal{
+	background-color: burlywood;
+	padding: 2%;
+	width:auto;
+	
+}
+#sec1{
+    width: auto;
+}
+th.t1 , th.t2,th.t3{
+	border-style: none;
+	border-width: 1px;
+	width: 25%;
+	padding: 5px;
+	margin-left: 10%;
+}
+th.t4{
+	border-style: none;
+	border-width: 1px;
+}
+
+td.td1, td.td2{
+	width: 15%;
+}
+
+div.galeria {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 180px;
+}
+
+div.galeria:hover {
+	border: 1px solid #777;
+}
+
+div.galeria img {
+	width: 100%;
+
+}
+
+div.desc {
+	padding: 1px;
+	text-align: center;
+}
+.mySlides {display:none;
+	width:100%
+}
+.w3-content{
+	margin-top: 2%;
+	max-width:300px;
+}
+.w3-center{
+	margin-top: 1%;
+	text-align: center;
+	
+}
+.w3-section{
+	
+	width: auto;
+	margin-top: 5%;
+	margin-bottom: 1%;
+}
+.w3-button:hover {
+	background-color: whitesmoke;
+	color: burlywood;
+}
+
+.grid-container{
+	width: auto;
+	height: 40%;
+	display:block;
+  }
+  .grid{
+	  width: 70%;
+	margin: 100%;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 10px;
+	font-size: 30px;
+	text-align: center;
+}
