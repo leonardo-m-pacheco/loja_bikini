@@ -39,10 +39,18 @@ a{
 	color: azure;
 	font-family: sans-serif;
 }
-
+#especificacao{
+    float: right;
+    background-color: red;
+    width: 150px;
+    margin-top: 5%;
+}
+.um{
+    margin-bottom: 100px
+}
 #main {
     background-color:white;
-	width:auto;
+	width:40%;
     margin-top: 2%;
     margin-left: 10px;
 	margin-bottom:20%;
@@ -63,6 +71,7 @@ th.t1 , th.t2,th.t3{
 th.t4{
 	border-style: none;
 	border-width: 1px;
+    padding: 20px;
 }
 
 td.td1, td.td2{
@@ -102,7 +111,6 @@ div.desc {
 	
 }
 .w3-section{
-	
 	width: auto;
 	margin-top: 5%;
 	margin-bottom: 1%;
