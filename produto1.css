@@ -40,25 +40,28 @@ a{
 	font-family: sans-serif;
 }
 #especificacao{
+    border-width: 10px;
+    border-style: groove;
     float: right;
-    width: 200px;
+    width:200px;
+    background-color: whitesmoke;
     margin-top: 8%;
     margin-bottom: 40%;
-    margin-right: 20px;
+    margin-right: 5%;
 }
 .a1{
     margin-bottom: 50px;
-    background-color: red;
     width:auto;
+    padding: 10px;
 }
 .a2{
     margin-bottom: 100px;
     background-color: blue;
-    width: auto;
+    width:auto;
 }
 #main {
     background-color:white;
-	width:60%;
+	width:auto;
     margin-top: 2%;
     margin-left: 10px;
 	margin-bottom:20%;
