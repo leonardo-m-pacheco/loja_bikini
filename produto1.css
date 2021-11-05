@@ -4,7 +4,7 @@ html{
 }
 body{
 	width:auto;
-	background-color: yellow
+	background-color: whitesmoke;
 }
 li,a:hover {
 background-color:white;
@@ -41,23 +41,17 @@ a{
 }
 
 #main {
-	background-color: whitesmoke;
+    background-color:white;
 	width:auto;
     margin-top: 2%;
     margin-left: 10px;
 	margin-bottom:20%;
-    background-color: red;
-	
 }
 
 #principal{
 	background-color: burlywood;
 	padding: 2%;
-	width:auto;
-	
-}
-#sec1{
-    width: auto;
+	width:auto;	
 }
 th.t1 , th.t2,th.t3{
 	border-style: none;
