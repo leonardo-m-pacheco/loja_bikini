@@ -4,7 +4,10 @@ html{
 }
 #main {
 	background-color: whitesmoke;
-	width: auto;
+	width: 645px;
+	margin-left: 20%;
+	margin-bottom:20%;
+	
 }
 body{
 	width: auto;
@@ -19,18 +22,19 @@ color: burlywood;
 	border-color: black;
 	width: auto;
 	margin-top: 1%;
+	
 }
 
 th{
 	border: 1px;
 	border-style: groove;
 	margin:2%;
-	padding: 20px;
+	padding: 5px;
 }
 #logo {
 	background-image:url(imagens/beach/beach.jpg);
 	/*background-color: green;*/
-	background-size: 50%;
+	background-size:50%;
 
 }
 .fotologo{
@@ -40,14 +44,14 @@ th{
 }
 a{
 	color: black;
-	font-size: xx-large;
+	font-size: x-large;
 }
 #marca {
 	text-align: center;
 	margin-top: 1%;
 	padding: 15px;
 	background-color:pink;
-	width: 100%;
+	width:auto;
 	color: azure;
 	font-family: sans-serif;
 	font-size:10px;
@@ -55,8 +59,8 @@ a{
 
 #principal{
 	background-color: burlywood;
-	margin-top: 15%;
 	padding: 2%;
+	width:auto;
 	
 }
 th.t1 , th.t2,th.t3{
@@ -70,9 +74,11 @@ th.t4{
 	border-style: none;
 	border-width: 1px;
 }
+
 td.td1, td.td2{
 	width: 15%;
 }
+
 div.galeria {
 	margin: 5px;
 	border: 1px solid #ccc;
