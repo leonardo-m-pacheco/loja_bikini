@@ -79,7 +79,7 @@ th.t1 , th.t2,th.t3{
 	padding: 5px;
 	margin-left: 10%;
 }
-th.t4{
+th.t4,th.t5{
 	border-style: none;
 	border-width: 1px;
     padding: 40px;
