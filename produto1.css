@@ -19,7 +19,7 @@ th{
 #logo {
 	background-image:url(imagens/beach/beach.jpg);
 	/*background-color: green;*/
-	background-size:50%;
+	
 }
 .fotologo{
 	display: block;
@@ -40,24 +40,24 @@ a{
 	font-family: sans-serif;
 }
 #especificacao{
-    border-width: 10px;
-    border-style: groove;
+    border-width: none;
     float: right;
     width:200px;
-    background-color: whitesmoke;
+    background-color: white;
     margin-top: 8%;
     margin-bottom: 40%;
-    margin-right: 5%;
+    margin-left: 5%;
 }
 .a1{
     margin-bottom: 50px;
     width:auto;
     padding: 10px;
+    text-align: left;
 }
 .a2{
     margin-bottom: 100px;
-    background-color: blue;
     width:auto;
+    text-align: left;
 }
 #main {
     background-color:white;
@@ -84,6 +84,7 @@ th.t4,th.t5{
 	border-width: 1px;
     padding: 40px;
 }
+
 
 td.td1, td.td2{
 	width: 15%;

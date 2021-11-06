@@ -1,43 +1,73 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
 
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=0.5">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Flores de Meninas</title>
+	<title> Flores de Meninas</title>
 
-	<link rel="stylesheet" type="text/css" href="bikini.css">
-
+	<link rel="stylesheet" type="text/css" href="produto1.css">
+	
 	<nav id="logo">
+		<div class="fotologo">
 		<img src="imagens/Logo2.jpeg" alt="Logo" width=350 height=300>
+		</div>
 	</nav>
 
 	<nav id="marca">
-		<a href="Site_bikini.html"><strong>Home |</strong></a>
-		<a href="bikini_plus/bikini_plus.html"><strong>Biquini Plus |</strong></a>
-		<a href="cangas/cangas.html"><strong>Cangas</strong></a>
+		<p>
+			<a href="Site_bikini.html">Home |</a>
+			<a href="bikini_plus/bikini_plus.html">Biquini Plus |</a>
+			<a href="cangas/cangas.html">Cangas</a>
+		</p>
 
 	</nav>
-
 </head>
 
-
 <body>
+	<div id="main">
 
-	<div class="w3-content">
-		<img class="mySlides" src="imagens/imagens_prod9/prod.9(2).jpeg" alt="prod.9(1)">
-		<img class="mySlides" src="imagens/imagens_prod9/prod.9(3).jpeg" alt="prod.9(2)">
+
+		<table>
+			<tr>
+
+				<th class="t4">
+					<div class="w3-content">
+						<img class="mySlides" src="imagens/imagens_prod9/prod.9.jpeg" alt="prod.2(1)" width="600" height="500">
+						<img class="mySlides" src="imagens/imagens_prod9/prod.9(2).jpeg" alt="prod.2(2)" width="600" height="500">
+						<img class="mySlides" src="imagens/imagens_prod9/prod.9(3).jpeg" alt="prod.2(2)" width="600" height="500">
+					</div>
+
+					<div class="w3-center">
+						<div class="w3-section">
+							<button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Anterior</button>
+							<button class="w3-button w3-light-grey" onclick="plusDivs(1)">Próxima ❯</button>
+						</div>
+						<button class="w3-button demo" onclick="currentDiv(1)">1</button>
+						<button class="w3-button demo" onclick="currentDiv(2)">2</button>
+						<button class="w3-button demo" onclick="currentDiv(3)">3</button>
+
+					</div>
+
+				</th>
+				<th class="t5">
+					<aside id="especificacao">
+						<div class="a1">
+							<h1>Biquini cortinha franzida rosa</h1>
+							<p><strong>Tamanho:G</strong></p>
+							<p><strong>Descrição<br>***meia taça sem bojo *** amarraçao nas laterais  *** tecido com brilho  *** estampa colorida</strong></p>
+						</div>	
+						<div class="a2">
+							<p>R$ 70,00</p>
+						</div>
+					</aside>
+				</th>
+			</tr>
+		</table>
 	</div>
 
-	<div class="w3-center">
-		<div class="w3-section">
-			<button type="button" class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Anterior</button>
-			<button type="button" class="w3-button w3-light-grey" onclick="plusDivs(1)">Próxima ❯</button>
-		</div>
-		<button type="button" class="w3-button demo" s onclick="currentDiv(1)">1</button>
-		<button type="button" class="w3-button demo" onclick="currentDiv(2)">2</button>
-	</div>
+
+
 	<footer>
 		<div id="principal">
 			<section id="sec1">
@@ -102,8 +132,6 @@
 			dots[slideIndex - 1].className += " w3-red";
 		}
 	</script>
-
-
 </body>
 
 </html>
