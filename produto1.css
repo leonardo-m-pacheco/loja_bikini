@@ -54,11 +54,7 @@ a{
     padding: 10px;
     text-align: left;
 }
-.a2{
-    margin-bottom: 100px;
-    width:auto;
-    text-align: left;
-}
+
 #main {
     background-color:white;
 	width:auto;
@@ -126,9 +122,17 @@ div.desc {
 	margin-top: 5%;
 	margin-bottom: 1%;
 }
-.w3-button:hover {
-	background-color: whitesmoke;
-	color: burlywood;
+.w3-button{
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
 }
 
 .grid-container{
