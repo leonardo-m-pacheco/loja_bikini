@@ -33,8 +33,8 @@
 
 				<th class="t4">
 					<div class="w3-content">
-						<img class="mySlides" src="imagens/imagens_prod6/P.6 (1).jpeg" alt="prod.2(1)" width="600" height="500">
-						<img class="mySlides" src="imagens/imagens_prod6/P.6 (2).jpeg" alt="prod.2(2)" width="600" height="500">
+						<img class="mySlides" src="imagens/imagens_prod6/P.6 (1).jpeg" alt="prod.2(1)" width="600" height="500"onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0">
+						<img class="mySlides" src="imagens/imagens_prod6/P.6 (2).jpeg" alt="prod.2(2)" width="600" height="500"onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0">
 					</div>
 
 					<div class="w3-center">
@@ -102,7 +102,14 @@
 
 	</footer>
 	<script>
-
+function bigImg(x) {
+  x.style.height = "1000px";
+  x.style.width = "900px";
+}
+function normalImg(x) {
+  x.style.height = "600px";
+  x.style.width = "500px";
+}
 
 		var slideIndex = 1;
 		showDivs(slideIndex);
