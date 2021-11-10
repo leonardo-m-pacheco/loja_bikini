@@ -34,13 +34,14 @@ th{
 #logo {
 	background-image:url(imagens/beach/beach.jpg);
 	/*background-color: green;*/
-	width:100%;
+	
 
 }
 .fotologo{
 	display: block;
 	padding: 50px;
 	text-align: center;
+	height: 350px;
 }
 a{
 	color: black;
