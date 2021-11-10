@@ -5,7 +5,7 @@ html{
 #main {
 	background-color: whitesmoke;
 	width: 645px;
-	margin-left: 20%;
+	margin-left: 5%;
 	margin-bottom:20%;
 	
 }
@@ -34,7 +34,7 @@ th{
 #logo {
 	background-image:url(imagens/beach/beach.jpg);
 	/*background-color: green;*/
-	
+	width:100%;
 
 }
 .fotologo{
