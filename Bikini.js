@@ -1,3 +1,3 @@
 function home(){
-alert("Todos os produtos com 5% de desconto!")
+alert("Somente neste final de semana. Todos os produtos com 5% de desconto!")
 }
