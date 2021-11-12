@@ -1,4 +1,3 @@
-function muda(){
-
-    var x = document.getElementById('teste').value
+function home(){
+alert("Todos os produtos com 5% de desconto!")
 }
