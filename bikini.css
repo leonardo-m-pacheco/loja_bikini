@@ -1,5 +1,12 @@
-
-#main {
+html{
+	width: auto;
+	height: auto;
+}
+body{
+	width: auto;
+	height: auto;
+}
+#main { 
 	background-color: whitesmoke;
 	width: 645px;
 	margin-left: 5%;
@@ -41,13 +48,13 @@ th{
 	text-align: center;
 	height: 350px;
 }
-a{
+a.navtext{
 	color: black;
 	font-size: x-large;
 	text-decoration: none;
 	margin: 10px;
 }
-.marca {
+#marca {
 	text-align: center;
 	margin-top: 1%;
 	padding: 15px;
