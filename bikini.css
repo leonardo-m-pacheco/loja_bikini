@@ -1,7 +1,4 @@
-html{
-	width:auto;
-	height: auto;
-}
+
 #main {
 	background-color: whitesmoke;
 	width: 645px;
@@ -16,6 +13,7 @@ body{
 li,a:hover {
 background-color:white;
 color: burlywood;
+border-radius: 10px;
 }
 #figurinha {
 	background-color: white;
@@ -46,8 +44,10 @@ th{
 a{
 	color: black;
 	font-size: x-large;
+	text-decoration: none;
+	margin: 10px;
 }
-#marca {
+.marca {
 	text-align: center;
 	margin-top: 1%;
 	padding: 15px;

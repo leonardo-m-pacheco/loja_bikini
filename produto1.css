@@ -1,7 +1,4 @@
-html{
-    width: auto;
-    height:auto;
-}
+
 body{
 	width:auto;
 	background-color: whitesmoke;
@@ -9,6 +6,7 @@ body{
 li,a:hover {
 background-color:white;
 color: burlywood;
+border-radius: 5px;
 }
 th{
 	border: 1px;
@@ -30,6 +28,8 @@ th{
 a{
 	color: black;
 	font-size: x-large;
+	text-decoration: none;
+	margin: 10px;
 }
 #marca {
 	text-align: center;
