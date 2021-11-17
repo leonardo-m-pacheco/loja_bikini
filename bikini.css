@@ -8,7 +8,6 @@ body{
 }
 #main { 
 	background-color: whitesmoke;
-	width: 645px;
 	margin-left: 5%;
 	margin-bottom:20%;
 	
@@ -37,7 +36,7 @@ th{
 	padding: 5px;
 }
 #logo {
-	background-image:url(imagens/beach/beach.jpg);
+	background-image:url(imagens/beach/praialogo.jpg);
 	/*background-color: green;*/
 	
 
@@ -46,7 +45,6 @@ th{
 	display: block;
 	padding: 50px;
 	text-align: center;
-	height: 350px;
 }
 a.navtext{
 	color: black;
