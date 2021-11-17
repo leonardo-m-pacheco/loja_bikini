@@ -67,6 +67,7 @@ a.navtext{
 	background-color: burlywood;
 	padding: 2%;
 	width:auto;
+	display: inline-block;
 	
 }
 th.t1 , th.t2,th.t3{
