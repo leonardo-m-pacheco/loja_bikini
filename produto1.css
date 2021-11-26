@@ -15,10 +15,8 @@ th{
 	padding: 5px;
 }
 #logo {
-	background-image:url(imagens/beach/beach.jpg);
+	background-image:url(imagens/beach/praialogo.jpg);
 	/*background-color: green;*/
-	width:auto;
-	background-size: auto;
 }
 .fotologo{
 	display: block;
