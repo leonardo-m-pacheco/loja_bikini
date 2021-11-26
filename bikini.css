@@ -1,20 +1,9 @@
-html{
-	width: auto;
-	height: auto;
-}
-body{
-	width: auto;
-	height: auto;
-}
+
 #main { 
 	background-color: whitesmoke;
 	margin-left: 5%;
 	margin-bottom:20%;
 	
-}
-body{
-	width: auto;
-	background-color: whitesmoke;
 }
 li,a:hover {
 background-color:white;
