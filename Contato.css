@@ -1,0 +1,65 @@
+#mainpage{	
+	text-align: center;
+	background-color: whitesmoke;
+}
+li,a:hover {
+background-color:white;
+color: burlywood;
+border-radius: 10px;
+}
+#ContatoContainer{
+	background-color: white;
+	margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.facebook,.instagram,.whatsapp,.email{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+div.links{
+    border-style: outset; 
+    border-color:white; 
+    border: 1%;
+}
+
+
+#logo {
+	background-image:url(imagens/beach/praialogo.jpg);
+
+}
+.fotologo{
+	
+	text-align: center;
+}
+a.navtext{
+	color: black;
+	font-size: x-large;
+	text-decoration: none;
+	margin: 10px;
+}
+a,p.rodape{
+	text-decoration: none;
+	color: black;
+}
+
+#marca {
+	text-align: center;
+	margin-top: 1%;
+	padding: 15px;
+	background-color:pink;
+	width:auto;
+	color: azure;
+	font-family: sans-serif;
+	font-size:10px;
+}
+
+.rodape{
+	display: inline-block;
+	text-align: center;
+	background-color: burlywood;
+	padding: 2%;
+	width:100%;	
+	margin-top: 20px;
+}
