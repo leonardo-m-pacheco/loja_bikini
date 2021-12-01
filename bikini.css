@@ -19,6 +19,14 @@ border-radius: 10px;
 	text-align: center;
 	display: inline-block;
 }
+.imgMostruario{
+	border: 5px;
+	border-style: none none solid none;
+	border-color:rgb(190, 22, 190);
+	box-shadow: inset;
+
+	
+}
 div.desc {
 	font-style:normal;
 	font-size: 20px;
