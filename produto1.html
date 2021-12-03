@@ -1,59 +1,172 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=0.5">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title> Flores de Meninas</title>
 
-	<link rel="stylesheet" type="text/css" href="produto1.css">
+	<link rel="stylesheet" type="text/css" href="bikini.css">
 	
+
 	<nav id="logo">
 		<div class="fotologo">
-			<img src="imagens/Logo3_files/Logo2_Redonda.png" alt="Logo" width=200>
+			<img src="imagens/Logo3_files/Logo2_Redonda.png" alt="Logo" width=200 height=200>
 		</div>
 	</nav>
 
 	<nav id="marca">
-		<p>
-			<a href="Index.html">Home</a>
-			<a href="Lingerie/Lingerie.html">Lingeries</a>
-			<a href="cangas/cangas.html">Contato</a>
+		<p> <a class="navtext" target="_self" href="Index.html">Home</a>
+			<a class="navtext" href="Lingerie/Lingerie.html">Lingeries</a>
+			<a class="navtext" href="Contato.html">Contato</a>
+
 		</p>
 
 	</nav>
+	<style>
+		* {box-sizing: border-box}
+		body {font-family: Verdana, sans-serif; margin:0}
+		.mySlides {display: none}
+		img {vertical-align: middle;}
+		
+		/* Slideshow container */
+		.slideshow-container {
+		  max-width: 400px;
+		  position: relative;
+		  margin: auto;
+		}
+		
+		/* Next & previous buttons */
+		.prev, .next {
+		  cursor: pointer;
+		  position: absolute;
+		  top: 50%;
+		  width: auto;
+		  padding: 16px;
+		  margin-top: -22px;
+		  color: white;
+		  font-weight: bold;
+		  font-size: 18px;
+		  transition: 0.6s ease;
+		  border-radius: 0 3px 3px 0;
+		  
+		}
+		
+		/* Position the "next button" to the right */
+		.next {
+		  right: 0;
+		  border-radius: 3px 0 0 3px;
+		}
+		
+		/* On hover, add a black background color with a little bit see-through */
+		.prev:hover, .next:hover {
+		  background-color: rgba(0,0,0,0.8);
+		}
+		
+		/* Caption text */
+		.text {
+		  color: #f2f2f2;
+		  font-size: 15px;
+		  padding: 8px 12px;
+		  position: absolute;
+		  bottom: 8px;
+		  width: 100%;
+		  text-align: center;
+		}
+		
+		/* Number text (1/3 etc) */
+		.numbertext {
+		  color: #f2f2f2;
+		  font-size: 12px;
+		  padding: 8px 12px;
+		  position: absolute;
+		  top: 0;
+		}
+		
+		/* The dots/bullets/indicators */
+		.dot {
+		  cursor: pointer;
+		  height: 15px;
+		  width: 15px;
+		  margin: 0 2px;
+		  background-color: #bbb;
+		  border-radius: 50%;
+		  display: inline-block;
+		  transition: background-color 0.6s ease;
+		}
+		
+		.active, .dot:hover {
+		  background-color: #717171;
+		}
+		
+		/* Fading animation */
+		.fade {
+		  -webkit-animation-name: fade;
+		  -webkit-animation-duration: 2.0s;
+		  animation-name: fade;
+		  animation-duration: 2.0s;
+		}
+		
+		@-webkit-keyframes fade {
+		  from {opacity: .4} 
+		  to {opacity: 1}
+		}
+		
+		@keyframes fade {
+		  from {opacity: .4} 
+		  to {opacity: 1}
+		}
+		
+		/* On smaller screens, decrease text size */
+		@media only screen and (max-width: 300px) {
+		  .prev, .next,.text {font-size: 11px}
+		}
+		#divpoderosa{
+			max-width:100%;
+			padding: 50px;
+		}
+		.descricaoproduto{
+			display: inline-block;
+		}
+		</style>
 </head>
 
 <body>
-	<div id="main">
+	<div id="divpoderosa">
+	<div class="slideshow-container">
 
-
-		<table>
-			<tr>
-
-				<th class="t4">
-					<div class="w3-content">
-						<img class="mySlides" src="imagens/imagens_prod1/prod.1.jpeg" alt="prod.2(1)" width="600" height="500"onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0">
-						<img class="mySlides" src="imagens/imagens_prod1/prod.1(1).jpeg" alt="prod.2(2)" width="600" height="500"onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0">
-						<img class="mySlides" src="imagens/imagens_prod1/prod.2(2).jpeg" alt="prod.2(2)" width="600" height="500"onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0">
-					</div>
-
-					<div class="w3-center">
-						<div class="w3-section">
-							<button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Anterior</button>
-							<button class="w3-button w3-light-grey" onclick="plusDivs(1)">Próxima ❯</button>
-						</div>
-						<button class="w3-button demo" onclick="currentDiv(1)">1</button>
-						<button class="w3-button demo" onclick="currentDiv(2)">2</button>
-						<button class="w3-button demo" onclick="currentDiv(3)">3</button>
-
-					</div>
-
-				</th>
-				<th class="t5">
-					<aside id="especificacao">
-						<div class="a1">
-							<h1>Biquíni cortininha xadrez</h1>
+		<div class="mySlides fade">
+		  <div class="numbertext">1 / 3</div>
+		  <img src="imagens/imagens_prod1/prod.1.jpeg" alt="fotoproduto"width="100%">
+		  <div class="text">Caption Text</div>
+		</div>
+		
+		<div class="mySlides fade">
+		  <div class="numbertext">2 / 3</div>
+		  <img src="imagens/imagens_prod1/prod.1(1).jpeg"  alt="fotoproduto"width="100%">
+		  <div class="text">Caption Two</div>
+		</div>
+		
+		<div class="mySlides fade">
+		  <div class="numbertext">3 / 3</div>
+		  <img src="imagens/imagens_prod1/prod.2(2).jpeg"  alt="fotoproduto"width="100%">
+		  <div class="text">Caption Three</div>
+		</div>
+		
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
+		</div>
+		<br>
+		
+		<div style="text-align:center">
+		  <span class="dot" onclick="currentSlide(1)"></span> 
+		  <span class="dot" onclick="currentSlide(2)"></span> 
+		  <span class="dot" onclick="currentSlide(3)"></span> 
+		</div>
+		<div class="descricaoproduto">
+			<h1>Biquíni cortininha xadrez</h1>
 							<p><strong>Tamanho:G</strong></p>
 							<p><strong>Descrição:
 								<p>Cortininha comum</p> 
@@ -63,83 +176,60 @@
 							<p>Código do produto: 
 							89L</p></strong></p>
 							<p>Preço: R$ 80,00</p>
-							
-						</div>	
-						<a target="_self" href="produto2.html"><button type="button">Próximo</button></a>
-					</aside>
-				</th>
-			</tr>
-		</table>
-	</div>
-
-
-
-	<footer>
-		<div id="principal">
-			<section id="sec1">
-				<table>
-					<tr>
-						<th class="t1">
-							<p><img src="imagens/ícones/gostar.png" alt="gostar" height="15" width="15"> Curta nossas páginas</p>
-							<p><img src="imagens/ícones/facebook.png" alt="instagram" height="15" width="15">lojafloresdemeninas</p>
-							<p><img src="imagens/ícones/instagram.png" alt="instagram" height="15" width="15"> @floresdemeninas</p>
-						</th>
-						<td class="td1">
-						<th class="t2">
-							<p>Contato</p>
-							<p><img src="imagens/ícones/gmail.png" height="20" alt="gmail">lojafloresdemeninas<br>@gmail.com</p>
-							<p><img src="imagens/ícones/whatsapp.png" height="20" alt="icon">(21) 98410-5810</p>
-
-						</th>
-						</td>
-						<td class="td2">
-						<th class="t3">
-							<strong>Aceitamos os cartões</strong><br>
-							<p><img src="imagens/bandeiras/icones-cartao.png.png" alt="bandeira"> </p>
-						</th>
-						</td>
-					</tr>
-
-				</table>
-			</section>
 		</div>
+	</div>
+	<footer>
+		<div class="rodape">
 
+			<p><img src="imagens/ícones/gostar.png" alt="gostar" height="15" width="15"><strong>Curta
+					nossas páginas</strong></p>
+			<p><img src="imagens/ícones/facebook.png" alt="facebook" height="15"
+					width="15"><strong>Floresdemeninas</strong></p>
+			<p><img src="imagens/ícones/instagram.png" alt="instagram" height="15"
+					width="15"><strong>@floresdemeninass2</strong>
+
+			<p><strong>Contato</strong></p>
+
+			<p><img src="imagens/ícones/gmail.png" height="20" alt="gmail"><strong>
+					lojafloresdemeninas<br>@gmail.com</strong></p>
+			<p><img src="imagens/ícones/whatsapp.png" height="20" alt="icon">
+				<a rel="noopener noreferrer" href="https://wa.me/message/XBEJCY345WO7I1" target="_blank"><strong>21
+						98410-5810</strong></a>
+			</p>
+
+			<strong>Aceitamos os cartões</strong><br>
+			<p><img src="imagens/bandeiras/icones-cartao.png.png" alt="bandeira"> </p>
+
+		</div>
 	</footer>
+
 	<script>
-		function bigImg(x) {
-  x.style.height = "1000px";
-  x.style.width = "900px";
-}
-function normalImg(x) {
-  x.style.height = "500px";
-  x.style.width = "400px";
-}
 		var slideIndex = 1;
-		showDivs(slideIndex);
+showSlides(slideIndex);
 
-		function plusDivs(n) {
-			showDivs(slideIndex += n);
-		}
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
-		function currentDiv(n) {
-			showDivs(slideIndex = n);
-		}
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 
-		function showDivs(n) {
-			var i;
-			var x = document.getElementsByClassName("mySlides");
-			var dots = document.getElementsByClassName("demo");
-			if (n > x.length) { slideIndex = 1 }
-			if (n < 1) { slideIndex = x.length }
-			for (i = 0; i < x.length; i++) {
-				x[i].style.display = "none";
-			}
-			for (i = 0; i < dots.length; i++) {
-				dots[i].className = dots[i].className.replace(" w3-red", "");
-			}
-			x[slideIndex - 1].style.display = "block";
-			dots[slideIndex - 1].className += " w3-red";
-		}
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
 	</script>
 </body>
 
