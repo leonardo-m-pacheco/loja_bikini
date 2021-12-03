@@ -1,3 +1,6 @@
+body{
+	margin: 0px;
+}
 #main {	
 	text-align: center;
 	background-color: whitesmoke;
@@ -50,6 +53,16 @@ a.navtext{
 	text-decoration: none;
 	margin: 10px;
 }
+#btnnoite{
+	float: right;
+	border-style: outset;
+	border: 1%;
+	border-color: white;
+	font-size: normal;
+	cursor: pointer;
+	
+}
+ 
 a,p.rodape{
 	text-decoration: none;
 	color: black;
@@ -57,7 +70,7 @@ a,p.rodape{
 
 #marca {
 	text-align: center;
-	margin-top: 1%;
+	margin-top: 2%;
 	padding: 15px;
 	background-color:pink;
 	width:auto;
