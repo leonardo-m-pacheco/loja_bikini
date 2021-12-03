@@ -65,15 +65,7 @@
 		}
 		
 		/* Caption text */
-		.text {
-		  color: #f2f2f2;
-		  font-size: 15px;
-		  padding: 8px 12px;
-		  position: absolute;
-		  bottom: 8px;
-		  width: 100%;
-		  text-align: center;
-		}
+		
 		
 		/* Number text (1/3 etc) */
 		.numbertext {
@@ -120,7 +112,7 @@
 		
 		/* On smaller screens, decrease text size */
 		@media only screen and (max-width: 300px) {
-		  .prev, .next,.text {font-size: 11px}
+		  .prev, .next{font-size: 11px}
 		}
 		#divpoderosa{
 			max-width:100%;
@@ -129,6 +121,9 @@
 		.descricaoproduto{
 			display: inline-block;
 			margin-top: 10%;
+		}
+		.ponto{
+			text-align: center;
 		}
 		</style>
 </head>
@@ -140,19 +135,19 @@
 		<div class="mySlides fade">
 		  <div class="numbertext">1 / 3</div>
 		  <img src="imagens/imagens_prod1/prod.1.jpeg" alt="fotoproduto"width="100%">
-		  <div class="text">Caption Text</div>
+		  
 		</div>
 		
 		<div class="mySlides fade">
 		  <div class="numbertext">2 / 3</div>
 		  <img src="imagens/imagens_prod1/prod.1(1).jpeg"  alt="fotoproduto"width="100%">
-		  <div class="text">Caption Two</div>
+		  
 		</div>
 		
 		<div class="mySlides fade">
 		  <div class="numbertext">3 / 3</div>
 		  <img src="imagens/imagens_prod1/prod.2(2).jpeg"  alt="fotoproduto"width="100%">
-		  <div class="text">Caption Three</div>
+		  
 		</div>
 		
 		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -161,7 +156,7 @@
 		</div>
 		<br>
 		
-		<div style="text-align:center">
+		<div class="ponto">
 		  <span class="dot" onclick="currentSlide(1)"></span> 
 		  <span class="dot" onclick="currentSlide(2)"></span> 
 		  <span class="dot" onclick="currentSlide(3)"></span> 

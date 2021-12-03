@@ -1,5 +1,6 @@
 body{
 	margin: 0px;
+	font-family: Verdana, sans-serif;
 }
 #main {	
 	text-align: center;
@@ -32,9 +33,10 @@ border-radius: 10px;
 	
 }
 div.desc {
-	font-family: Verdana, sans-serif;
-	font-size: 20px;
-	font:bold;
+	margin-bottom: 5px;
+	margin-top: 5%;
+	font-size: 15px;
+	
 	padding: 1px;
 	text-align: center;
 	background: #f0f8ff;
@@ -52,19 +54,10 @@ div.desc {
 a.navtext{
 	color: black;
 	font-size: x-large;
-	font-family: Verdana, sans-serif;
 	text-decoration: none;
 	margin: 10px;
 }
-#btnnoite{
-	float: right;
-	border-style: outset;
-	border: 1%;
-	border-color: white;
-	font-size: normal;
-	cursor: pointer;
-	
-}
+
  
 a,p.rodape{
 	text-decoration: none;
