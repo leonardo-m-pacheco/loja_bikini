@@ -12,7 +12,7 @@ border-radius: 10px;
 }
 .Thecontainer {
 	display:inline-block;
-	background-color:#f0f8ff;
+	background-color:white;
 	margin-top: 1%;
 
 }
@@ -32,7 +32,7 @@ border-radius: 10px;
 	
 }
 div.desc {
-	font-style:normal;
+	font-family: Verdana, sans-serif;
 	font-size: 20px;
 	font:bold;
 	padding: 1px;
@@ -52,6 +52,7 @@ div.desc {
 a.navtext{
 	color: black;
 	font-size: x-large;
+	font-family: Verdana, sans-serif;
 	text-decoration: none;
 	margin: 10px;
 }
