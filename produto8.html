@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=0.5">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title> Flores de Meninas</title>
 
@@ -18,42 +18,53 @@
 		<p>
 			<a class="navtext" href="Index.html">Home</a>
 			<a class="navtext" href="Lingerie/Lingerie.html">Lingeries</a>
-			<a class="navtext" href="cangas/cangas.html">Contato</a>
+			<a class="navtext" href="Contato.html">Contato</a>
 		</p>
 
 	</nav>
 </head>
 
 <body>
-	<div id="main">
+	<div id="divpoderosa">
+		<div class="slideshow-container">
+	
+			<div class="mySlides fade">
+			  <div class="numbertext">1 / 4</div>
+			  <img src="imagens/Catálogo/Produto8.jpeg" alt="fotoproduto"width="100%">
+			  
+			</div>
+			
+			<div class="mySlides fade">
+			  <div class="numbertext">2 / 4</div>
+			  <img src="imagens/imagens_prod8/prod.8(1).jpeg"  alt="fotoproduto"width="100%">
+			  
+			</div>
+			
+			<div class="mySlides fade">
+			  <div class="numbertext">3 / 4</div>
+			  <img src="imagens/imagens_prod8/prod.8(2).jpeg"  alt="fotoproduto"width="100%">
+			  
+			</div>
 
-
-		<table>
-			<tr>
-
-				<th class="t4">
-					<div class="w3-content">
-						<img class="mySlides" src="imagens/imagens_prod8/prod.8(1).jpeg" alt="prod.2(1)" width="600" height="500"onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0">
-						<img class="mySlides" src="imagens/imagens_prod8/prod.8(2).jpeg" alt="prod.2(2)" width="600" height="500"onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0">
-						<img class="mySlides" src="imagens/imagens_prod8/prod.8(3).jpeg" alt="prod.2(2)" width="600" height="500"onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0">
-					</div>
-
-					<div class="w3-center">
-						<div class="w3-section">
-							<button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Anterior</button>
-							<button class="w3-button w3-light-grey" onclick="plusDivs(1)">Próxima ❯</button>
-						</div>
-						<button class="w3-button demo" onclick="currentDiv(1)">1</button>
-						<button class="w3-button demo" onclick="currentDiv(2)">2</button>
-						<button class="w3-button demo" onclick="currentDiv(3)">3</button>
-
-					</div>
-
-				</th>
-				<th class="t5">
-					<aside id="especificacao">
-						<div class="a1">
-							<h1>Maiô 2 em 1 Bronze</h1>
+			<div class="mySlides fade">
+				<div class="numbertext">4 / 4</div>
+				<img src="imagens/imagens_prod8/prod.8(3).jpeg"  alt="fotoproduto"width="100%">
+			</div>
+			
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			
+			</div>
+			<br>
+			
+			<div class="ponto">
+			  <span class="dot" onclick="currentSlide(1)"></span> 
+			  <span class="dot" onclick="currentSlide(2)"></span> 
+			  <span class="dot" onclick="currentSlide(3)"></span> 
+			  <span class="dot" onclick="currentSlide(4)"></span> 
+			</div>
+			<div class="descricaoproduto">
+				<h1>Maiô 2 em 1 Bronze</h1>  
 							<p><strong>Tamanho:M</strong></p>
 							<p><strong>Descrição:
 								<p>Maiô desmontável podendo ser usado como TOP</p>
@@ -62,82 +73,36 @@
 							89L</p>
 							<p>Preço: R$ 125,00</p>
 							
-						</div>	
-						<a target="_self" href="produto9.html"><button type="button">Próximo</button></a>
-					</aside>
-				</th>
-			</tr>
-		</table>
-	</div>
-
-
-
-	<footer>
-		<div id="principal">
-			<section id="sec1">
-				<table>
-					<tr>
-						<th class="t1">
-							<p><img src="imagens/ícones/gostar.png" alt="gostar" height="15" width="15"> Curta nossas páginas</p>
-							<p><img src="imagens/ícones/facebook.png" alt="instagram" height="15" width="15">lojafloresdemeninas</p>
-							<p><img src="imagens/ícones/instagram.png" alt="instagram" height="15" width="15"> @floresdemeninas</p>
-						</th>
-						<td class="td1">
-						<th class="t2">
-							<p>Contato</p>
-							<p><img src="imagens/ícones/gmail.png" height="20" alt="gmail">lojafloresdemeninas<br>@gmail.com</p>
-							<p><img src="imagens/ícones/whatsapp.png" height="20" alt="icon">(21) 98410-5810</p>
-						</th>
-						</td>
-						<td class="td2">
-						<th class="t3">
-							<strong>Aceitamos os cartões</strong><br>
-							<p><img src="imagens/bandeiras/icones-cartao.png.png" alt="bandeira"> </p>
-						</th>
-						</td>
-					</tr>
-
-				</table>
-			</section>
+			</div>
+			<script type="text/javascript" src="produtos.js"></script>
 		</div>
 
-	</footer>
-	<script>
-		function bigImg(x) {
-  x.style.height = "1000px";
-  x.style.width = "900px";
-}
-function normalImg(x) {
-  x.style.height = "500px";
-  x.style.width = "400px";
-}
-		var slideIndex = 1;
-		showDivs(slideIndex);
 
-		function plusDivs(n) {
-			showDivs(slideIndex += n);
-		}
-
-		function currentDiv(n) {
-			showDivs(slideIndex = n);
-		}
-
-		function showDivs(n) {
-			var i;
-			var x = document.getElementsByClassName("mySlides");
-			var dots = document.getElementsByClassName("demo");
-			if (n > x.length) { slideIndex = 1 }
-			if (n < 1) { slideIndex = x.length }
-			for (i = 0; i < x.length; i++) {
-				x[i].style.display = "none";
-			}
-			for (i = 0; i < dots.length; i++) {
-				dots[i].className = dots[i].className.replace(" w3-red", "");
-			}
-			x[slideIndex - 1].style.display = "block";
-			dots[slideIndex - 1].className += " w3-red";
-		}
-	</script>
+		<footer>
+			<div class="rodape">
+	
+				<p><img src="imagens/ícones/gostar.png" alt="gostar" height="15" width="15"><strong>Curta
+						nossas páginas</strong></p>
+				<p><img src="imagens/ícones/facebook.png" alt="facebook" height="15"
+						width="15"><strong>Floresdemeninas</strong></p>
+				<p><img src="imagens/ícones/instagram.png" alt="instagram" height="15"
+						width="15"><strong>@floresdemeninass2</strong>
+	
+				<p><strong>Contato</strong></p>
+	
+				<p><img src="imagens/ícones/gmail.png" height="20" alt="gmail"><strong>
+						lojafloresdemeninas<br>@gmail.com</strong></p>
+				<p><img src="imagens/ícones/whatsapp.png" height="20" alt="icon">
+					<a rel="noopener noreferrer" href="https://wa.me/message/XBEJCY345WO7I1" target="_blank"><strong>21
+							98410-5810</strong></a>
+				</p>
+	
+				<strong>Aceitamos os cartões</strong><br>
+				<p><img src="imagens/bandeiras/icones-cartao.png.png" alt="bandeira"> </p>
+	
+			</div>
+		</footer>
+		
 </body>
 
 </html>
