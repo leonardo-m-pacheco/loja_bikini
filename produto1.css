@@ -3,7 +3,7 @@ body{
 	font-family: Verdana, sans-serif;
 }
 
-li,a:hover {
+a:hover {
 background-color:white;
 color: burlywood;
 border-radius: 10px;
@@ -160,8 +160,9 @@ div.galeria img {
 			
 		}
 		.descricaoproduto{
-			display: inline-block;
+			float: left;
 			margin-top: 10%;
+			background-color: whitesmoke;
 		}
 		.ponto{
 			text-align: center;
