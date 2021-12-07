@@ -1,3 +1,24 @@
+<?php
+    if(isset($_POST['submit']))
+    {
+     /*
+        print_r($_POST['nome']);
+        print_r($_POST['telefone']);
+       */
+        
+        include_once('config.php');
+        
+        $nome = $_POST['nome'];
+        $telefone = $_POST['telefone'];
+        $email = $_POST['email'];
+        $pedido = $_POST['pedido'];
+        $result = mysqli_query($conexao, "INSERT INTO usuarios(nome,telefone,email,pedido)VALUES('$nome','$telefone','$email','$pedido')");
+        
+
+
+    }
+
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -75,6 +96,19 @@
 				<ul>
 				<li>Preço: R$ 80,00</li>
 			</ul>
+
+			<form action="produto1.php" method="POST">
+				<fieldset>
+					<legend>Fazer o pedido</legend>
+					<ul>
+			   <li><label>Nome:</label><input type="text" id="nome" name="nome"  placeholder="Digite seu nome" required></li>
+				<li><label>Telefone:</label><input type="number" name="telefone" id="telefone"  placeholder="Digite seu Telefone" required></li>
+				<li><label>E-mail:</label><input type="email" name="email" id="email" placeholder="Digite seu E-mail" required></li>
+				<li><label>Pedido:</label><textarea type="text" name="pedido" id="pedido" placeholder="Faça seu pedido" required></textarea></li>
+			</ul>
+				<button id="enviar" name="submit" type="submit">Enviar</button>
+			</fieldset>
+			</form>
 		</div>
 		<script type="text/javascript" src="produtos.js"></script>
 	</div>
