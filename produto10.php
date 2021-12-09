@@ -1,3 +1,19 @@
+<?php
+if (isset($_POST['submit'])) {
+	/*
+        print_r($_POST['nome']);
+        print_r($_POST['telefone']);
+       */
+
+	include_once('config.php');
+
+	$nome = $_POST['nome'];
+	$telefone = $_POST['telefone'];
+	$pedido = $_POST['pedido'];
+	$result = mysqli_query($conexao, "INSERT INTO usuarios(nome,telefone,pedido)VALUES('$nome','$telefone','$pedido')");
+}
+
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -8,10 +24,9 @@
 
 	<link rel="stylesheet" type="text/css" href="produto1.css">
 	
-	
 	<nav id="logo">
 		<div class="fotologo">
-		<img src="imagens/Logo3_files/Logo2_Redonda.png" alt="Logo" width="200" height="200">
+		<img src="imagens/Logo3_files/Logo2_Redonda.png" alt="Logo" width="200">
 		</div>
 	</nav>
 
@@ -30,11 +45,11 @@
 		<div class="slideshow-container">
 	
 			<div class="mySlides fade">
-			  <div class="numbertext">1 / 3</div>
-			  <img src="imagens/Catálogo/Produto2.jpeg" alt="fotoproduto"width="100%">
+			  <div class="numbertext">1 / 1</div>
+			  <img src="imagens/Catálogo/Produto11.jpeg" alt="fotoproduto"width="100%">
 			  
 			</div>
-			
+			<!--
 			<div class="mySlides fade">
 			  <div class="numbertext">2 / 3</div>
 			  <img src="imagens/imagens_prod2/prod.2.jpeg"  alt="fotoproduto"width="100%">
@@ -58,20 +73,44 @@
 			  <span class="dot" onclick="currentSlide(2)"></span> 
 			  <span class="dot" onclick="currentSlide(3)"></span> 
 			</div>
+			-->
+		</div>
 			<div class="descricaoproduto">
-				<h1>Biquíni cortinha franzida preto</h1>
+				<h2 style="color: red;">Esgotado!</h2>
+				<h1>Biquíni fita com regulador estampado</h1>
 				<ul>
-					<li>Tamanho:P</li>
+					<li>Tamanho: P</li>
 				</ul>
 				<ul>
 					<li>Descrição:</li>
-					<li>Cortininha franzida</li>
-					<li>Calcinha amarraçao nas laterais, empina bumbum Liso</li>
-					<li>Código do produto: 266</li>
+					<li>Cortininha franzida com detalhe em metal</li>
+					<li>Calcinha fita com regulador semi fio</li>
+					<li>Estampa de coração</li>
+					<li>Código do produto: 6E3</li>
 				</ul>
-					<ul>
-					<li>Preço: R$ 70,00</li>
-				</ul>								
+				<ul>
+					<li>Preço: R$ 85,00</li>
+				</ul>
+				<div id="formulario">
+				<form action="produto10.php" method="POST">
+					<fieldset>
+						<legend>Fazer pedido</legend>
+						<ul>
+							<li><label>Nome:</label><input type="text" id="nome" name="nome" placeholder="Digite seu nome" required></li>
+						</ul>
+						<ul>
+							<li><label>Celular:</label><input type="number" name="telefone" id="telefone" placeholder="Digite seu Telefone" required></li>
+						</ul>
+	
+						<ul>
+							<li><label>Pedido:</label><br><textarea type="text" name="pedido" id="pedido" placeholder="Faça seu pedido" required></textarea></li>
+						</ul>
+						<button id="enviar" name="submit" type="submit">Enviar</button>
+						<p class="msgfrete" style="color: red; font:small;">Frete grátis para a cidade de São Gonçalo</p>
+					</fieldset>
+				</form>
+			</div>
+		
 			</div>
 			<script type="text/javascript" src="produtos.js"></script>
 		</div>
@@ -102,7 +141,6 @@
 			</div>
 		</footer>
 		
-	
 </body>
 
 </html>

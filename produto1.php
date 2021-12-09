@@ -1,22 +1,17 @@
 <?php
-    if(isset($_POST['submit']))
-    {
-     /*
+if (isset($_POST['submit'])) {
+	/*
         print_r($_POST['nome']);
         print_r($_POST['telefone']);
        */
-        
-        include_once('config.php');
-        
-        $nome = $_POST['nome'];
-        $telefone = $_POST['telefone'];
-        $email = $_POST['email'];
-        $pedido = $_POST['pedido'];
-        $result = mysqli_query($conexao, "INSERT INTO usuarios(nome,telefone,email,pedido)VALUES('$nome','$telefone','$email','$pedido')");
-        
 
+	include_once('config.php');
 
-    }
+	$nome = $_POST['nome'];
+	$telefone = $_POST['telefone'];
+	$pedido = $_POST['pedido'];
+	$result = mysqli_query($conexao, "INSERT INTO usuarios(nome,telefone,pedido)VALUES('$nome','$telefone','$pedido')");
+}
 
 ?>
 <!DOCTYPE html>
@@ -45,7 +40,7 @@
 		</p>
 
 	</nav>
-	
+
 </head>
 
 <body>
@@ -93,34 +88,39 @@
 				<li>Estampado</li>
 				<li>Código do produto: 89L</li>
 			</ul>
-				<ul>
+			<ul>
 				<li>Preço: R$ 80,00</li>
 			</ul>
-
-			<form action="produto1.php" method="POST">
-				<fieldset>
-					<legend>Fazer o pedido</legend>
-					<ul>
-			   <li><label>Nome:</label><input type="text" id="nome" name="nome"  placeholder="Digite seu nome" required></li>
-				<li><label>Telefone:</label><input type="number" name="telefone" id="telefone"  placeholder="Digite seu Telefone" required></li>
-				<li><label>E-mail:</label><input type="email" name="email" id="email" placeholder="Digite seu E-mail" required></li>
-				<li><label>Pedido:</label><textarea type="text" name="pedido" id="pedido" placeholder="Faça seu pedido" required></textarea></li>
-			</ul>
-				<button id="enviar" name="submit" type="submit">Enviar</button>
-			</fieldset>
-			</form>
+			<div id="formulario">
+				<form action="produto1.php" method="POST">
+					<fieldset>
+						<legend>Fazer pedido</legend>
+						<ul>
+							<li><label>Nome:</label><input type="text" id="nome" name="nome" placeholder="Digite seu nome" required></li>
+						</ul>
+						<ul>
+							<li><label>Celular:</label><input type="number" name="telefone" id="telefone" placeholder="Digite seu Telefone" required></li>
+						</ul>
+	
+						<ul>
+							<li><label>Pedido:</label><br><textarea type="text" name="pedido" id="pedido" placeholder="Faça seu pedido" required></textarea></li>
+						</ul>
+						<button id="enviar" name="submit" type="submit">Enviar</button>
+						<p class="msgfrete" style="color: red; font:small;">Frete grátis para a cidade de São Gonçalo</p>
+					</fieldset>
+				</form>
+			</div>
 		</div>
 		<script type="text/javascript" src="produtos.js"></script>
+
 	</div>
 	<footer>
 		<div class="rodape">
 
 			<p><img src="imagens/ícones/gostar.png" alt="gostar" height="15" width="15"><strong>Curta
 					nossas páginas</strong></p>
-			<p><img src="imagens/ícones/facebook.png" alt="facebook" height="15"
-					width="15"><strong>Floresdemeninas</strong></p>
-			<p><img src="imagens/ícones/instagram.png" alt="instagram" height="15"
-					width="15"><strong>@floresdemeninass2</strong>
+			<p><img src="imagens/ícones/facebook.png" alt="facebook" height="15" width="15"><strong>Floresdemeninas</strong></p>
+			<p><img src="imagens/ícones/instagram.png" alt="instagram" height="15" width="15"><strong>@floresdemeninass2</strong>
 
 			<p><strong>Contato</strong></p>
 

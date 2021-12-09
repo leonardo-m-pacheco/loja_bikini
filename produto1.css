@@ -1,6 +1,6 @@
 body{
 	margin: 0px;
-	font-family: Verdana, sans-serif;
+	
 }
 
 a:hover {
@@ -157,7 +157,6 @@ div.galeria img {
 		#divpoderosa{
 			max-width:100%;
 			padding: 50px;
-			
 		}
 		.descricaoproduto{
 			float: left;
@@ -167,3 +166,6 @@ div.galeria img {
 		.ponto{
 			text-align: center;
 		}
+		
+		
+	

@@ -1,3 +1,19 @@
+<?php
+if (isset($_POST['submit'])) {
+	/*
+        print_r($_POST['nome']);
+        print_r($_POST['telefone']);
+       */
+
+	include_once('config.php');
+
+	$nome = $_POST['nome'];
+	$telefone = $_POST['telefone'];
+	$pedido = $_POST['pedido'];
+	$result = mysqli_query($conexao, "INSERT INTO usuarios(nome,telefone,pedido)VALUES('$nome','$telefone','$pedido')");
+}
+
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -78,6 +94,25 @@
 				<ul>
 				<li>Preço: R$ 80,00</li>
 			</ul>	
+			<div id="formulario">
+				<form action="produto3.php" method="POST">
+					<fieldset>
+						<legend>Fazer pedido</legend>
+						<ul>
+							<li><label>Nome:</label><input type="text" id="nome" name="nome" placeholder="Digite seu nome" required></li>
+						</ul>
+						<ul>
+							<li><label>Celular:</label><input type="number" name="telefone" id="telefone" placeholder="Digite seu Telefone" required></li>
+						</ul>
+	
+						<ul>
+							<li><label>Pedido:</label><br><textarea type="text" name="pedido" id="pedido" placeholder="Faça seu pedido" required></textarea></li>
+						</ul>
+						<button id="enviar" name="submit" type="submit">Enviar</button>
+						<p class="msgfrete" style="color: red; font:small;">Frete grátis para a cidade de São Gonçalo</p>
+					</fieldset>
+				</form>
+			</div>
 		</div>
 		<script type="text/javascript" src="produtos.js"></script>
 	</div>

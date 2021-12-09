@@ -1,3 +1,19 @@
+<?php
+if (isset($_POST['submit'])) {
+	/*
+        print_r($_POST['nome']);
+        print_r($_POST['telefone']);
+       */
+
+	include_once('config.php');
+
+	$nome = $_POST['nome'];
+	$telefone = $_POST['telefone'];
+	$pedido = $_POST['pedido'];
+	$result = mysqli_query($conexao, "INSERT INTO usuarios(nome,telefone,pedido)VALUES('$nome','$telefone','$pedido')");
+}
+
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -30,19 +46,19 @@
 	
 			<div class="mySlides fade">
 			  <div class="numbertext">1 / 3</div>
-			  <img src="imagens/Catálogo/Produto6.jpeg" alt="fotoproduto"width="100%">
+			  <img src="imagens/Catálogo/prod.5.jpeg" alt="fotoproduto"width="100%">
 			  
 			</div>
 			
 			<div class="mySlides fade">
 			  <div class="numbertext">2 / 3</div>
-			  <img src="imagens/imagens_prod6/P.6 (1).jpeg"  alt="fotoproduto"width="100%">
+			  <img src="imagens/imagens_prod5/prod.5(1).jpeg"  alt="fotoproduto"width="100%">
 			  
 			</div>
 			
 			<div class="mySlides fade">
 			  <div class="numbertext">3 / 3</div>
-			  <img src="imagens/imagens_prod6/P.6 (2).jpeg"  alt="fotoproduto"width="100%">
+			  <img src="imagens/imagens_prod5/prod.5(2).jpeg"  alt="fotoproduto"width="100%">
 			  
 			</div>
 			
@@ -58,21 +74,39 @@
 			  <span class="dot" onclick="currentSlide(3)"></span> 
 			</div>
 			<div class="descricaoproduto">
-			<h1>Biquíni Melissa bicolor xadrez branco/bronze</h1>
+			<h1>Biquíni cortinha franzida rosa</h1>
 			<ul>
-				<li>Tamanho:M</li>
+				<li>Tamanho:P</li>
 			</ul>
 			<ul>
 				<li>Descrição:</li>
-				<li>Tecido trilobal, brilhoso branco/bronze</li>
-				<li>Sem bojo, alça trançada</li>
-				<li>Tecido com detalhe</li>
-				<li>Biquíni cortininha com hot pant cavada</li>
+				<li>Cortininha franzida com detalhe em metal</li>
+				<li>Calcinha empina bumbum</li>
+				<li>liso</li>
 				<li>Código do produto: 266</li>
 			</ul>
 				<ul>
-				<li>Preço: R$ 70,00</li>
+				<li>Preço: R$ 82,00</li>
 			</ul>
+			<div id="formulario">
+				<form action="produto5.php" method="POST">
+					<fieldset>
+						<legend>Fazer pedido</legend>
+						<ul>
+							<li><label>Nome:</label><input type="text" id="nome" name="nome" placeholder="Digite seu nome" required></li>
+						</ul>
+						<ul>
+							<li><label>Celular:</label><input type="number" name="telefone" id="telefone" placeholder="Digite seu Telefone" required></li>
+						</ul>
+	
+						<ul>
+							<li><label>Pedido:</label><br><textarea type="text" name="pedido" id="pedido" placeholder="Faça seu pedido" required></textarea></li>
+						</ul>
+						<button id="enviar" name="submit" type="submit">Enviar</button>
+						<p class="msgfrete" style="color: red; font:small;">Frete grátis para a cidade de São Gonçalo</p>
+					</fieldset>
+				</form>
+			</div>
 			</div>
 			<script type="text/javascript" src="produtos.js"></script>
 		</div>
