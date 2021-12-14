@@ -45,20 +45,20 @@ if (isset($_POST['submit'])) {
 		<div class="slideshow-container">
 	
 			<div class="mySlides fade">
-			  <div class="numbertext">1 / 1</div>
-			  <img src="imagens/Catálogo/Produto11.jpeg" alt="fotoproduto"width="100%">
+			  <div class="numbertext">1 / 3</div>
+			  <img src="imagens/imagens_prod10/melissa lilas1.jpeg" alt="fotoproduto"width="100%">
 			  
 			</div>
-			<!--
+			
 			<div class="mySlides fade">
 			  <div class="numbertext">2 / 3</div>
-			  <img src="imagens/imagens_prod2/prod.2.jpeg"  alt="fotoproduto"width="100%">
+			  <img src="imagens/imagens_prod10/melissa lilas2.jpeg"  alt="fotoproduto"width="100%">
 			  
 			</div>
 			
 			<div class="mySlides fade">
 			  <div class="numbertext">3 / 3</div>
-			  <img src="imagens/imagens_prod2/prod.2(1).jpeg"  alt="fotoproduto"width="100%">
+			  <img src="imagens/imagens_prod10/melissa lilas3.jpeg"  alt="fotoproduto"width="100%">
 			  
 			</div>
 			
@@ -73,23 +73,22 @@ if (isset($_POST['submit'])) {
 			  <span class="dot" onclick="currentSlide(2)"></span> 
 			  <span class="dot" onclick="currentSlide(3)"></span> 
 			</div>
-			-->
+			
 		</div>
 			<div class="descricaoproduto">
-				<h2 style="color: red;">Esgotado!</h2>
-				<h1>Biquíni fita com regulador estampado</h1>
+				<h1>Biquini Melissa lilás              </h1>
 				<ul>
-					<li>Tamanho: P</li>
+					<li>Tamanho: M</li>
 				</ul>
 				<ul>
 					<li>Descrição:</li>
-					<li>Cortininha franzida com detalhe em metal</li>
-					<li>Calcinha fita com regulador semi fio</li>
-					<li>Estampa de coração</li>
-					<li>Código do produto: 6E3</li>
+					<li>Top cortininha com bojo removível</li>
+					<li>Hot pant cavada</li>
+					<li>Tecido texturizado</li>
+					<li>Código do produto: 0ML</li>
 				</ul>
 				<ul>
-					<li>Preço: R$ 85,00</li>
+					<li>Preço: R$ 145,00</li>
 				</ul>
 				<div id="formulario">
 				<form action="produto10.php" method="POST">

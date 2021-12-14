@@ -45,48 +45,34 @@ if (isset($_POST['submit'])) {
 		<div class="slideshow-container">
 	
 			<div class="mySlides fade">
-			  <div class="numbertext">1 / 3</div>
+			  <div class="numbertext">1 / 1</div>
 			  <img src="imagens/Catálogo/prod.5.jpeg" alt="fotoproduto"width="100%">
 			  
 			</div>
 			
-			<div class="mySlides fade">
-			  <div class="numbertext">2 / 3</div>
-			  <img src="imagens/imagens_prod5/prod.5(1).jpeg"  alt="fotoproduto"width="100%">
-			  
-			</div>
 			
-			<div class="mySlides fade">
-			  <div class="numbertext">3 / 3</div>
-			  <img src="imagens/imagens_prod5/prod.5(2).jpeg"  alt="fotoproduto"width="100%">
-			  
-			</div>
-			
-			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-			<a class="next" onclick="plusSlides(1)">&#10095;</a>
 			
 			</div>
 			<br>
 			
 			<div class="ponto">
 			  <span class="dot" onclick="currentSlide(1)"></span> 
-			  <span class="dot" onclick="currentSlide(2)"></span> 
-			  <span class="dot" onclick="currentSlide(3)"></span> 
+			 
 			</div>
 			<div class="descricaoproduto">
-			<h1>Biquíni cortinha franzida rosa</h1>
+			<h1>Neon - Amarelo</h1>
 			<ul>
-				<li>Tamanho:P</li>
+				<li>Tamanho:M</li>
 			</ul>
 			<ul>
 				<li>Descrição:</li>
-				<li>Cortininha franzida com detalhe em metal</li>
-				<li>Calcinha empina bumbum</li>
-				<li>liso</li>
-				<li>Código do produto: 266</li>
+				<li>Top fixo com bojo removível com laterais em elástico colorido</li>
+				<li>Asa delta com lateral em elástico colorido</li>
+				<li>Amarelo Neon</li>
+				<li>Código do produto: 6R5</li>
 			</ul>
 				<ul>
-				<li>Preço: R$ 82,00</li>
+				<li>Preço: R$ 112,00</li>
 			</ul>
 			<div id="formulario">
 				<form action="produto5.php" method="POST">

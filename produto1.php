@@ -48,20 +48,25 @@ if (isset($_POST['submit'])) {
 		<div class="slideshow-container">
 
 			<div class="mySlides fade">
-				<div class="numbertext">1 / 3</div>
-				<img src="imagens/imagens_prod1/prod.1.jpeg" alt="fotoproduto" width="100%">
+				<div class="numbertext">1 / 4</div>
+				<img src="imagens/imagens_prod1/Maiô preto e branco.jpeg" alt="fotoproduto" width="100%">
 
 			</div>
 
 			<div class="mySlides fade">
-				<div class="numbertext">2 / 3</div>
-				<img src="imagens/imagens_prod1/prod.1(1).jpeg" alt="fotoproduto" width="100%">
+				<div class="numbertext">2 / 4</div>
+				<img src="imagens/imagens_prod1/Maiô preto e branco 1.jpeg" alt="fotoproduto" width="100%">
 
 			</div>
 
 			<div class="mySlides fade">
-				<div class="numbertext">3 / 3</div>
-				<img src="imagens/imagens_prod1/prod.2(2).jpeg" alt="fotoproduto" width="100%">
+				<div class="numbertext">3 / 4</div>
+				<img src="imagens/imagens_prod1/Maiô preto e branco 2.jpeg" alt="fotoproduto" width="100%">
+
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">4 / 4</div>
+				<img src="imagens/imagens_prod1/Maiô preto e branco 3.jpeg" alt="fotoproduto" width="100%">
 
 			</div>
 
@@ -75,21 +80,21 @@ if (isset($_POST['submit'])) {
 			<span class="dot" onclick="currentSlide(1)"></span>
 			<span class="dot" onclick="currentSlide(2)"></span>
 			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
 		</div>
 		<div class="descricaoproduto">
-			<h1>Biquíni cortininha xadrez</h1>
+			<h1>Maiô 2 em 1 preto/branco</h1>
 			<ul>
-				<li>Tamanho:G</li>
+				<li>Tamanho:M</li>
 			</ul>
 			<ul>
 				<li>Descrição:</li>
-				<li>Cortininha comum</li>
-				<li>Calcinha detalhe na lateral direita</li>
-				<li>Estampado</li>
-				<li>Código do produto: 89L</li>
+				<li>Maio desmontável podendo ser usado como TOP</li>
+				<li>Tecido brilhoso com detalhes</li>
+				<li>Código do produto: YE7</li>
 			</ul>
 			<ul>
-				<li>Preço: R$ 80,00</li>
+				<li>Preço: R$ 125,00</li>
 			</ul>
 			<div id="formulario">
 				<form action="produto1.php" method="POST">

@@ -88,7 +88,7 @@ if (isset($_POST['submit'])) {
 					<li>Descrição:</li>
 					<li>Maiô desmontável podendo ser usado como TOP</li>
 					<li>Tecido brilhoso com detalhes</li>
-					<li>Código do produto: 89L</li>
+					<li>Código do produto: 363</li>
 				</ul>
 					<ul>
 					<li>Preço: R$ 125,00</li>

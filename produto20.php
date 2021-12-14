@@ -46,22 +46,17 @@ if (isset($_POST['submit'])) {
 		<div class="slideshow-container">
 	
 			<div class="mySlides fade">
-			  <div class="numbertext">1 / 3</div>
-			  <img src="imagens/imagens_prod2/blogueirinha 1.jpeg" alt="fotoproduto"width="100%">
+			  <div class="numbertext">1 / 2</div>
+			  <img src="imagens/imagens_prod20/neon rosa1.jpeg" alt="fotoproduto"width="100%">
 			  
 			</div>
 			
 			<div class="mySlides fade">
-			  <div class="numbertext">2 / 3</div>
-			  <img src="imagens/imagens_prod2/blogueirinha 2.jpeg"  alt="fotoproduto"width="100%">
+			  <div class="numbertext">2 / 2</div>
+			  <img src="imagens/imagens_prod20/neon rosa1 (1).jpeg"  alt="fotoproduto"width="100%">
 			  
 			</div>
 			
-			<div class="mySlides fade">
-			  <div class="numbertext">3 / 3</div>
-			  <img src="imagens/imagens_prod2/blogueirinha 3.jpeg"  alt="fotoproduto"width="100%">
-			  
-			</div>
 			
 			
 			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -73,23 +68,23 @@ if (isset($_POST['submit'])) {
 			<div class="ponto">
 			  <span class="dot" onclick="currentSlide(1)"></span> 
 			  <span class="dot" onclick="currentSlide(2)"></span> 
-			  <span class="dot" onclick="currentSlide(3)"></span> 
+			  
 
 			</div>
 			<div class="descricaoproduto">
-				<h1>Blogueirinha canelado lavanda</h1>
+				<h1>Neon Tie-dye - rosa</h1>
 				<ul>
-					<li>Tamanho:P</li>
+					<li>Tamanho:G / GG</li>
 				</ul>
 				<ul>
 					<li>Descrição:</li>
-					<li>top fixo com bojo removível</li>
-					<li>asa delta meio fio dental</li>
-					<li>tecido canelado brilhoso</li>
-					<li>Código do produto: ME7</li>
+					<li>top fixo sem bojo com laterais em elástico tie-dye tamanho GG </li>
+					<li>Aasa delta com lateral em elástico tie-dye tamanho G </li>
+					<li>Rosa Neon</li>
+					<li>Código do produto: 078</li>
 				</ul>
 					<ul>
-					<li>Preço: R$ 121,00</li>
+					<li>Preço: R$ 112,00</li>
 				</ul>	
 				<div id="formulario">
 					<form action="produto2.php" method="POST">

@@ -24,10 +24,9 @@ if (isset($_POST['submit'])) {
 
 	<link rel="stylesheet" type="text/css" href="produto1.css">
 	
-	
 	<nav id="logo">
 		<div class="fotologo">
-		<img src="imagens/Logo3_files/Logo2_Redonda.png" alt="Logo" width="200" height="200">
+		<img src="imagens/Logo3_files/Logo2_Redonda.png" alt="Logo" width=200>
 		</div>
 	</nav>
 
@@ -46,70 +45,54 @@ if (isset($_POST['submit'])) {
 		<div class="slideshow-container">
 	
 			<div class="mySlides fade">
-			  <div class="numbertext">1 / 3</div>
-			  <img src="imagens/imagens_prod2/blogueirinha 1.jpeg" alt="fotoproduto"width="100%">
-			  
-			</div>
-			
-			<div class="mySlides fade">
-			  <div class="numbertext">2 / 3</div>
-			  <img src="imagens/imagens_prod2/blogueirinha 2.jpeg"  alt="fotoproduto"width="100%">
-			  
-			</div>
-			
-			<div class="mySlides fade">
-			  <div class="numbertext">3 / 3</div>
-			  <img src="imagens/imagens_prod2/blogueirinha 3.jpeg"  alt="fotoproduto"width="100%">
+			  <div class="numbertext">1 / 1</div>
+			  <img src="imagens/imagens_prod28/rosa chiclete.jpeg" alt="fotoproduto"width="100%">
 			  
 			</div>
 			
 			
-			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-			<a class="next" onclick="plusSlides(1)">&#10095;</a>
 			
 			</div>
 			<br>
 			
 			<div class="ponto">
 			  <span class="dot" onclick="currentSlide(1)"></span> 
-			  <span class="dot" onclick="currentSlide(2)"></span> 
-			  <span class="dot" onclick="currentSlide(3)"></span> 
-
+			 
 			</div>
 			<div class="descricaoproduto">
-				<h1>Blogueirinha canelado lavanda</h1>
+			<h1>Biquíni Melissa Rosa Chiclete</h1>
+			<ul>
+				<li>Tamanho:P</li>
+			</ul>
+			<ul>
+				<li>Descrição:</li>
+				<li>Top cortininha com bojo removível</li>
+				<li>Hot pant cavada</li>
+				<li>Tecido texturizado</li>
+				<li>Código do produto: M1R</li>
+			</ul>
 				<ul>
-					<li>Tamanho:P</li>
-				</ul>
-				<ul>
-					<li>Descrição:</li>
-					<li>top fixo com bojo removível</li>
-					<li>asa delta meio fio dental</li>
-					<li>tecido canelado brilhoso</li>
-					<li>Código do produto: ME7</li>
-				</ul>
-					<ul>
-					<li>Preço: R$ 121,00</li>
-				</ul>	
-				<div id="formulario">
-					<form action="produto2.php" method="POST">
-						<fieldset>
-							<legend>Fazer pedido</legend>
-							<ul>
-								<li><label>Nome:</label><input type="text" id="nome" name="nome" placeholder="Digite seu nome" required></li>
-							</ul>
-							<ul>
-								<li><label>Celular:</label><input type="number" name="telefone" id="telefone" placeholder="Digite seu Telefone" required></li>
-							</ul>
-		
-							<ul>
-								<li><label>Pedido:</label><br><textarea type="text" name="pedido" id="pedido" placeholder="Faça seu pedido" required></textarea></li>
-							</ul>
-							<button id="enviar" name="submit" type="submit">Enviar</button>
-							<p class="msgfrete" style="color: red; font:small;">Frete grátis para a cidade de São Gonçalo</p>
-						</fieldset>
-					</form>
-				</div>							
+				<li>Preço: R$ 145,00</li>
+			</ul>
+			<div id="formulario">
+				<form action="produto5.php" method="POST">
+					<fieldset>
+						<legend>Fazer pedido</legend>
+						<ul>
+							<li><label>Nome:</label><input type="text" id="nome" name="nome" placeholder="Digite seu nome" required></li>
+						</ul>
+						<ul>
+							<li><label>Celular:</label><input type="number" name="telefone" id="telefone" placeholder="Digite seu Telefone" required></li>
+						</ul>
+	
+						<ul>
+							<li><label>Pedido:</label><br><textarea type="text" name="pedido" id="pedido" placeholder="Faça seu pedido" required></textarea></li>
+						</ul>
+						<button id="enviar" name="submit" type="submit">Enviar</button>
+						<p class="msgfrete" style="color: red; font:small;">Frete grátis para a cidade de São Gonçalo</p>
+					</fieldset>
+				</form>
+			</div>
 			</div>
 			<script type="text/javascript" src="produtos.js"></script>
 		</div>
@@ -140,7 +123,6 @@ if (isset($_POST['submit'])) {
 			</div>
 		</footer>
 		
-	
 </body>
 
 </html>

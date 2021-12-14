@@ -92,7 +92,7 @@ if (isset($_POST['submit'])) {
 				<li>Código do produto: 89L</li>
 			</ul>
 				<ul>
-				<li>Preço: R$ 80,00</li>
+				<li>Preço: R$ 110,00</li>
 			</ul>	
 			<div id="formulario">
 				<form action="produto3.php" method="POST">
