@@ -91,7 +91,7 @@ if (isset($_POST['submit'])) {
 					<li>Preço: R$ 145,00</li>
 				</ul>
 				<div id="formulario">
-				<form action="produto10.php" method="POST">
+				<form action="produto6.php" method="POST">
 					<fieldset>
 						<legend>Fazer pedido</legend>
 						<ul>
@@ -109,7 +109,6 @@ if (isset($_POST['submit'])) {
 					</fieldset>
 				</form>
 			</div>
-		
 			</div>
 			<script type="text/javascript" src="produtos.js"></script>
 		</div>
