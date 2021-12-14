@@ -18,29 +18,27 @@ if (isset($_POST['submit'])) {
 <html lang="pt-BR">
 
 <head>
-	<meta charset="utf-8">
+	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title> Flores de Meninas</title>
 
 	<link rel="stylesheet" type="text/css" href="produto1.css">
 
-
 	<nav id="logo">
 		<div class="fotologo">
-			<img src="imagens/Logo3_files/Logo2_Redonda.png" alt="Logo" width=200 height=200>
+			<img src="imagens/Logo3_files/Logo2_Redonda.png" alt="Logo" width=200>
 		</div>
 	</nav>
 
 	<nav id="marca">
-		<p> <a class="navtext" target="_self" href="Index.html">Home</a>
+		<p>
+			<a class="navtext" href="Index.html">Home</a>
 			<a class="navtext" href="Lingerie.html">Lingeries</a>
 			<a class="navtext" href="Contato.html">Contato</a>
-
 		</p>
 
 	</nav>
-
 </head>
 
 <body>
@@ -48,56 +46,29 @@ if (isset($_POST['submit'])) {
 		<div class="slideshow-container">
 
 			<div class="mySlides fade">
-				<div class="numbertext">1 / 4</div>
-				<img src="imagens/imagens_prod1/Maiô preto e branco.jpeg" alt="fotoproduto" width="100%">
+				<div class="numbertext">1 / 1</div>
+				<img src="imagens/lingerie/azul marinho.jpeg" alt="fotoproduto" width="100%">
 
 			</div>
-
-			<div class="mySlides fade">
-				<div class="numbertext">2 / 4</div>
-				<img src="imagens/imagens_prod1/Maiô preto e branco 1.jpeg" alt="fotoproduto" width="100%">
-
-			</div>
-
-			<div class="mySlides fade">
-				<div class="numbertext">3 / 4</div>
-				<img src="imagens/imagens_prod1/Maiô preto e branco 2.jpeg" alt="fotoproduto" width="100%">
-
-			</div>
-			<div class="mySlides fade">
-				<div class="numbertext">4 / 4</div>
-				<img src="imagens/imagens_prod1/Maiô preto e branco 3.jpeg" alt="fotoproduto" width="100%">
-
-			</div>
-
-			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-			<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
+			
 		</div>
-		<br>
-
-		<div class="ponto">
-			<span class="dot" onclick="currentSlide(1)"></span>
-			<span class="dot" onclick="currentSlide(2)"></span>
-			<span class="dot" onclick="currentSlide(3)"></span>
-			<span class="dot" onclick="currentSlide(4)"></span>
-		</div>
-		<div class="descricaoproduto">
-			<h1>Maiô 2 em 1 preto/branco</h1>
-			<ul>
-				<li>Tamanho:M</li>
-			</ul>
-			<ul>
-				<li>Descrição:</li>
-				<li>Maio desmontável podendo ser usado como TOP</li>
-				<li>Tecido brilhoso com detalhes</li>
-				<li>Código do produto: YE7</li>
-			</ul>
-			<ul>
-				<li>Preço: R$ 125,00</li>
-			</ul>
-			<div id="formulario">
-				<form action="produto1.php" method="POST">
+			<div class="descricaoproduto">		
+				<h1>Aro Colors Marinho - Neon</h1>
+				<ul>
+					<li>Tamanho: M</li>
+				</ul>
+				<ul>
+					<li>Descrição:</li>
+					<li>Conjunto meia taça renda</li>
+					<li>Calcinha fio dental com laterais largas</li>
+					<li>Sem bojo</li>
+					<li>Código do produto: 60K</li>
+				</ul>
+					<ul>
+					<li>Preço: R$ 35,00</li>
+				</ul>
+				<div id="formulario">
+				<form action="lingerie3.php" method="POST">
 					<fieldset>
 						<legend>Fazer pedido</legend>
 						<ul>
@@ -115,17 +86,20 @@ if (isset($_POST['submit'])) {
 					</fieldset>
 				</form>
 			</div>
+			</div>
+			<script type="text/javascript" src="produtos.js"></script>
 		</div>
-		<script type="text/javascript" src="produtos.js"></script>
 
-	</div>
+	
 	<footer>
 		<div class="rodape">
 
 			<p><img src="imagens/ícones/gostar.png" alt="gostar" height="15" width="15"><strong>Curta
 					nossas páginas</strong></p>
-			<p><img src="imagens/ícones/facebook.png" alt="facebook" height="15" width="15"><strong>Floresdemeninas</strong></p>
-			<p><img src="imagens/ícones/instagram.png" alt="instagram" height="15" width="15"><strong>@floresdemeninass2</strong>
+			<p><img src="imagens/ícones/facebook.png" alt="facebook" height="15"
+					width="15"><strong>Floresdemeninas</strong></p>
+			<p><img src="imagens/ícones/instagram.png" alt="instagram" height="15"
+					width="15"><strong>@floresdemeninass2</strong>
 
 			<p><strong>Contato</strong></p>
 
@@ -141,7 +115,6 @@ if (isset($_POST['submit'])) {
 
 		</div>
 	</footer>
-
 
 </body>
 

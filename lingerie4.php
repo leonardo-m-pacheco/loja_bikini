@@ -26,7 +26,7 @@ if (isset($_POST['submit'])) {
 	
 	<nav id="logo">
 		<div class="fotologo">
-		<img src="imagens/Logo3_files/Logo2_Redonda.png" alt="Logo" width=200>
+		<img src="imagens/Logo3_files/Logo2_Redonda.png" alt="Logo" width="200">
 		</div>
 	</nav>
 
@@ -45,22 +45,18 @@ if (isset($_POST['submit'])) {
 		<div class="slideshow-container">
 	
 			<div class="mySlides fade">
-			  <div class="numbertext">1 / 3</div>
-			  <img src="imagens/Catálogo/Produto6.jpeg" alt="fotoproduto"width="100%">
+			  <div class="numbertext">1 / 2</div>
+			  <img src="imagens/lingerie/conjunto paty vinho/b4.jpeg" alt="fotoproduto"width="100%">
 			  
 			</div>
 			
 			<div class="mySlides fade">
-			  <div class="numbertext">2 / 3</div>
-			  <img src="imagens/imagens_prod6/P.6 (1).jpeg"  alt="fotoproduto"width="100%">
+			  <div class="numbertext">2 / 2</div>
+			  <img src="imagens/lingerie/conjunto paty vinho/b6.jpeg"  alt="fotoproduto"width="100%">
 			  
 			</div>
 			
-			<div class="mySlides fade">
-			  <div class="numbertext">3 / 3</div>
-			  <img src="imagens/imagens_prod6/P.6 (2).jpeg"  alt="fotoproduto"width="100%">
-			  
-			</div>
+			
 			
 			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 			<a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -71,26 +67,25 @@ if (isset($_POST['submit'])) {
 			<div class="ponto">
 			  <span class="dot" onclick="currentSlide(1)"></span> 
 			  <span class="dot" onclick="currentSlide(2)"></span> 
-			  <span class="dot" onclick="currentSlide(3)"></span> 
 			</div>
+			
+		</div>
 			<div class="descricaoproduto">
-			<h1>Biquíni Melissa bicolor xadrez branco/bronze</h1>
-			<ul>
-				<li>Tamanho:M</li>
-			</ul>
-			<ul>
-				<li>Descrição:</li>
-				<li>Tecido trilobal, brilhoso branco/bronze</li>
-				<li>Sem bojo, alça trançada</li>
-				<li>Tecido com detalhe</li>
-				<li>Biquíni cortininha com hot pant cavada</li>
-				<li>Código do produto: 266</li>
-			</ul>
+				<h1>Conjunto Paty Vinho</h1>
 				<ul>
-				<li>Preço: R$ 125,00</li>
-			</ul>
-			<div id="formulario">
-				<form action="produto6.php" method="POST">
+					<li>Tamanho: P</li>
+				</ul>
+				<ul>
+					<li>Descrição:</li>
+					<li>Conjunto renda com strappy de elástico</li>
+					<li>Sem bojo</li>
+					<li>Código do produto: 8M1</li>
+				</ul>
+				<ul>
+					<li>Preço: R$ 36,00</li>
+				</ul>
+				<div id="formulario">
+				<form action="lingerie4.php" method="POST">
 					<fieldset>
 						<legend>Fazer pedido</legend>
 						<ul>
