@@ -18,11 +18,13 @@ border-radius: 10px;
 	
 	text-align: center;
 }
-a.navtext{
+a,p.navtext{
+	display: inline-block;
 	color: black;
-	font-size: x-large;
+	font-size:15px;
 	text-decoration: none;
 	margin: 10px;
+
 }
 
  
@@ -39,7 +41,10 @@ a,p.rodape{
 	width:auto;
 	color: azure;
 	font-family: sans-serif;
-	font-size:10px;
+}
+
+#marca p{
+	margin: 20px;
 }
 
 .rodape{

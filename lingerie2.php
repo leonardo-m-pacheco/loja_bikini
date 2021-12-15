@@ -33,9 +33,10 @@ if (isset($_POST['submit'])) {
 
 	<nav id="marca">
 		<p>
-			<a class="navtext" href="Index.html">Home</a>
-			<a class="navtext" href="Lingerie/Lingerie.html">Lingeries</a>
-			<a class="navtext" href="Contato.html">Contato</a>
+		<a class="navtext" target="_self" href="Index.html">Home</a>
+               <a class="navtext" href="Bikinis.html">Biquínes</a>
+               <a class="navtext" href="Lingerie.html">Lingeries</a>
+               <a class="navtext" href="Contato.html">Contato</a>
 		</p>
 
 	</nav>
